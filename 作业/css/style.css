@@ -1,0 +1,128 @@
+@import url(reset.css);
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  font-size: .16rem;
+  background: #fff;
+  overflow: hidden; }
+
+input, button, select, textarea, a {
+  outline: none;
+  border: none;
+  background: none; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: .4rem; }
+
+.header {
+  background: #e53842; }
+  .header .inp {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto; }
+    .header .inp input {
+      width: 100%;
+      height: 80%;
+      background: #fff;
+      border-radius: 50px;
+      margin-top: .04rem;
+      background: #fff url(../img/index_search.png) no-repeat 6px 6px;
+      padding-left: 30px;
+      background-size: 20px 20px; }
+
+nav {
+  width: 100%;
+  height: .35rem;
+  border-bottom: 1px #ccc solid;
+  position: relative; }
+  nav .list {
+    width: 200%;
+    height: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    padding-right: 30px; }
+    nav .list li {
+      width: 65px;
+      text-align: center;
+      height: 100%;
+      line-height: .34rem;
+      font-size: 13px; }
+  nav i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+    display: inline-block;
+    height: 100%;
+    line-height: .35rem;
+    width: 30px;
+    text-align: center;
+    box-shadow: -12px 0 12px rgba(255, 255, 255, 0.5); }
+
+.main {
+  flex: 1;
+  overflow: hidden; }
+
+.big {
+  width: 100%;
+  padding: 10px; }
+  .big dl {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0; }
+  .big dt {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-items: center;*/
+    padding-right: .1rem; }
+    .big dt p {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: #ccc; }
+    .big dt .blue {
+      padding: 0 5px;
+      border: 1px solid #6198c8;
+      color: #6198c8; }
+  .big dd {
+    width: 85px;
+    height: 65px; }
+    .big dd img {
+      width: 100%;
+      height: 100%; }
+
+.footer {
+  width: 100%;
+  height: .45rem;
+  display: flex;
+  background: #f5f5f5; }
+  .footer p {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; }
+    .footer p i {
+      margin-bottom: 5px;
+      font-size: 20px; }
+  .footer .on {
+    color: #f13844; }
+
+/*# sourceMappingURL=style.css.map */
